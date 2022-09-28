@@ -1,0 +1,34 @@
+.active {
+  color: $orange !important;
+}
+.n-logo {
+  width: 30px;
+  padding-bottom: 15px;
+}
+.t-logo {
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 1px;
+
+  &img {
+    width: 50px;
+    display: flex !important;
+  }
+}
+.n-btn {
+    background: $orange;
+    color: $white;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.n-btn:hover {
+    background: $white;
+    color: $black;
+    border: 3px solid $orange;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    transition: 1s;
+  }

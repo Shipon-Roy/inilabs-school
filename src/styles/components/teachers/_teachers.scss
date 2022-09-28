@@ -1,0 +1,72 @@
+.teachers {
+  & h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}
+.teacher__content {
+  & img {
+    position: relative;
+    text-align: center;
+    opacity: 1;
+    z-index: -1;
+    width: 90%;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  & h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  & p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+
+.info {
+  position: absolute;
+  width: 319px;
+  top: 90;
+  opacity: -0;
+  transition: 0.5s ease;
+  background: rgba(237, 188, 98, 0.852);
+}
+
+.teacher__content:hover .img {
+  opacity: 0.3;
+}
+.teacher__content:hover .info {
+  opacity: 1;
+}
+.tc-btn {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.t-btn {
+  background: $gray;
+  color: $orange;
+  border: none;
+  width: 500px;
+  height: 60px;
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.t-btn:hover {
+  background: $orange;
+  color: $white;
+  border: none;
+  width: 500px;
+  height: 60px;
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 1s;
+}

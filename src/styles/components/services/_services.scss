@@ -1,0 +1,17 @@
+.s-bgwhte {
+    color: $orange;
+    padding: 50px;
+
+    & img {
+        margin-bottom: 25px;
+    }
+}
+.s-bgorg {
+    background: $orange;
+    color: $white;
+    padding: 50px;
+
+    & img {
+        margin-bottom: 25px;
+    }
+}

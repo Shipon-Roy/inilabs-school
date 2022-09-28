@@ -1,0 +1,52 @@
+.about__content {
+  position: relative;
+  z-index: -1;
+  &-left {
+    & h3 {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-top: 20px;
+    }
+    & p {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 16px;
+      margin-top: 45px;
+    }
+    & button {
+      background: $white;
+      border: 3px solid $orange;
+      width: 200px;
+      height: 50px;
+      border-radius: 5px;
+    }
+    & button:hover {
+      background: $orange;
+      color: $white;
+      width: 200px;
+      height: 50px;
+      border-radius: 5px;
+      transition: 1s;
+    }
+  }
+  &-right img {
+    height: 365px;
+    z-index: -1;
+  }
+}
+
+.counter {
+  position: absolute;
+  width: 720px;
+  height: 150px;
+  background: $gray;
+  text-align: center;
+  margin-left: 290px;
+  margin-top: -80px;
+  z-index: 5;
+  display: block;
+}
+.counter__content {
+  padding: 35px 10px;
+}
